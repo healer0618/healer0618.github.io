@@ -2780,7 +2780,7 @@
 	}
 
 	.\36 u, .\36 u\24 {
-		width: 50%;
+		width: 33.3333333333%;
 		clear: none;
 		margin-left: 0;
 	}
@@ -4304,11 +4304,16 @@
 	}
 	.home-post-info h6{
 		font-size: 0.8rem;
+		color: #666666;
 	}
+	.home-post-info h6 span{
+		color: #cccccc;
+	}
+
 	.page_title{
 		position: relative;
 		width: 100%;
-		height:300px; 
+		height:346px; 
 		_height:expression(this.height > 400 ? "400px" : this.height);
 	}
 	.page_title h1{
@@ -4322,7 +4327,7 @@
 	}
 	.page_title h2{
 		position:absolute;
-		font-size: 2rem;
+		font-size: 0rem;
 		font-weight: bold;
 		text-shadow:6px 5px 10px #000;
 		bottom:2px;
