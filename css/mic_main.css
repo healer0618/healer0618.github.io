@@ -4430,7 +4430,7 @@
 		border-bottom:none; 
 	}
 	.post_page_title_img a > h2{
-		font-size: 3rem;
+		font-size:0rem;
 		color: #fff;
 	}
 
