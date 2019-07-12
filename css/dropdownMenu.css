@@ -60,7 +60,7 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
     max-height: 0;
     position: absolute;
     top: 100%;
-    width: 200%;
+    width: 155%;
     z-index: 500;
     background-color: #fff;
     -webkit-perspective: 400px;
@@ -68,6 +68,8 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
     -ms-perspective: 400px;
     -o-perspective: 400px;
     perspective: 400px;
+    box-shadow:0px 2px 10px #eeeeee;
+    border-radius: 7px;
 }
 .submenu li {
 
@@ -84,13 +86,18 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
     -o-transition: opacity .4s, -o-transform .5s;
     transition: opacity .4s, transform .5s;
 }
+.submenu li:hover {
+    background-color: #E2EEF5;
+    border-radius: 7px;
+}
 .menu .submenu li:hover a {
     z-index: 500;
 
 }
 .submenu li a{
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
+    text-align: center;
 }
 .menu > li:hover .submenu, .menu > li:focus .submenu {
     max-height: 2000px;

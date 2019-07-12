@@ -135,7 +135,7 @@
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #fff !important;
 			}
 
 		#intro strong, #intro b {
@@ -175,8 +175,8 @@
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #3a8bbb;
+				color: #3a8bbb !important;
 			}
 
 			#intro input[type="submit"].special,
@@ -194,7 +194,7 @@
 				#intro input[type="button"].special:hover,
 				#intro button.special:hover,
 				#intro .button.special:hover {
-					background-color: #18bfef;
+					background-color: #3a8bbb;
 				}
 
 		#intro h1 {
@@ -206,7 +206,7 @@
 
 		#intro p {
 			font-size: 1.5rem;
-			font-style: italic;
+			/*font-style: italic;*/
 			margin-top: -0.25rem;
 			text-align: center;
 		}
@@ -537,7 +537,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #3a8bbb !important;
 		}
 
 	strong, b {
@@ -744,8 +744,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #3a8bbb;
+			color: #3a8bbb !important;
 		}
 
 		input[type="submit"].special,
@@ -763,7 +763,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #18bfef;
+				background-color: #3a8bbb;
 			}
 
 /* Icon */
@@ -980,7 +980,7 @@
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #3a8bbb;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -988,7 +988,7 @@
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #3a8bbb;
 	}
 
 /* Section/Article */
@@ -1091,13 +1091,13 @@
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #3a8bbb !important;
+			border-color: #3a8bbb;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a, .pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #3a8bbb;
 			}
 
 		.pagination a.active {
@@ -1154,7 +1154,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3a8bbb !important;
 			}
 
 		#header strong, #header b {
@@ -1201,8 +1201,8 @@
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #fff !important;
+				color: #fff !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -1253,7 +1253,7 @@
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #3a8bbb;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -1261,7 +1261,7 @@
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #3a8bbb;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -1276,7 +1276,7 @@
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3a8bbb !important;
 			}
 
 		#nav strong, #nav b {
@@ -1354,12 +1354,15 @@
 					#nav ul.links li.active a {
 						color: #fff;
 					}
+					#nav ul.link li.active ul.submenu {
+						box-shadow: #cccccc;
+					}
 						#nav ul.links li.active ul.submenu li a {
-							color: #000;
+							color: #666;
 						}
 
 						#nav ul.links li.active a:hover {
-							color: #1E90FF !important;
+							color: #3a8bbb !important;
 						}
 
 		#nav ul.icons {
@@ -1453,7 +1456,7 @@
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3a8bbb !important;
 			}
 
 		#footer strong, #footer b {
@@ -1496,8 +1499,8 @@
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #3a8bbb;
+				color: #3a8bbb !important;
 			}
 
 			#footer input[type="submit"].special,
@@ -1515,7 +1518,7 @@
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: #18bfef;
+					background-color: #3a8bbb;
 				}
 
 		#footer label {
@@ -1535,7 +1538,7 @@
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #3a8bbb;
 			}
 
 		#footer select option {
@@ -1566,7 +1569,7 @@
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #3a8bbb;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -1594,7 +1597,7 @@
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #3a8bbb;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -1602,7 +1605,7 @@
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #3a8bbb;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -1642,13 +1645,13 @@
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #3a8bbb !important;
+				border-color: #3a8bbb;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a, #footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #3a8bbb;
 				}
 
 			#footer .pagination a.active {
@@ -1885,7 +1888,7 @@
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #3a8bbb !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -2182,11 +2185,13 @@
 	#main{
 		margin-bottom: 0.5rem;	
 	}
+
 	#main .header .h1 {
 		color: #000;
 	}
 	#me{
 		margin-bottom: 2rem;
+		background: url("/img/banner1.jpg") no-repeat;
 	}
 		#me .pic {
 			border-bottom: 0px;
@@ -2281,11 +2286,12 @@
 				padding: 0;
 				margin-right: 3rem; 
 				height: 20em;
+				text-align: center;
 			}
 
 				#me .pic {
 					text-decoration: none;
-					display: block;
+					display: none;
 					position: relative;
 					float: right;
 					height: 100%;
@@ -2299,7 +2305,7 @@
 					}
 
 					#me .pic .arrow {
-						display: block;
+						display: none;
 						position: absolute;
 						right: 0;
 						top: 50%;
@@ -2325,7 +2331,7 @@
 						}
 
 						#me .pic .arrow span {
-							display: block;
+							display: none;
 							text-indent: -9999px;
 						}
 
@@ -2339,21 +2345,22 @@
 					top: 0;
 					width: 100%;
 					height: 100%;
-					margin-left: 3.5em;
+					margin-left: 6em;
 				}
 
 					#me header > h1 {
-						text-transform : Capitalize;
+						text-transform : uppercase;
 						position: absolute;
-						left: 0;
+						left: 16%;
 						bottom: 52.5%;
 						font-size: 3.5rem;
 						margin: 0;
+						
 					}
 
 					#me header > p {
 						position: absolute;
-						left: 0;
+						left: 21.5%;
 						top: 52.5%;
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
@@ -4314,6 +4321,7 @@
 		position: relative;
 		width: 100%;
 		height:346px; 
+		border-radius: 6px;
 		_height:expression(this.height > 400 ? "400px" : this.height);
 	}
 	.page_title h1{
